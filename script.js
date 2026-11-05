@@ -11,7 +11,7 @@ for(let i=0;i<800;i++){
 		e.target.style.backgroundcolor=`rgb(${red},${green},${blue})`;
 		e.target.style.boxshadow= "1px 1px 1px black";
 		});
-	div.addEventListener("mouselive",(e)=>{
+	div.addEventListener("mouseout",(e)=>{
 		setTimeOut(()=>{
 			e.target.style,backgroundcolor= "gray";
 			e.target.style.boxshadow= "none";
