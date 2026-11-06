@@ -19,11 +19,11 @@ body{
 		grid-template-rows:repeat(20, 1fr);
 		gap:4px;
 	}
-	.box{
+	.square{
 		cursor:pointer;
 		background-color:gray;
 		border-radius:20%;
-		transition: background-color 0.5s;
+		transition: background-color 1s;
 	}
 	
 }
