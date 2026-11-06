@@ -13,11 +13,11 @@ for(let i=0;i<800;i++){
 		});
 	div.addEventListener("mouseout",(e)=>{
 		setTimeout(()=>{
-			e.target.style,backgroundColor= "gray";
+			e.target.style.backgroundColor= "gray";
 			e.target.style.boxShadow= "none";
 		},500)
-	})
-		fragment.appendChild(div)
-	
-	container.appendChild(fargment)
+	});
+fragment.appendChild(div)
 }
+	
+	container.appendChild(fragment)
