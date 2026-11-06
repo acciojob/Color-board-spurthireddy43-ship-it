@@ -8,15 +8,16 @@ for(let i=0;i<800;i++){
 		const red=Math.floor(Math.random()*256);
 		const green=Math.floor(Math.random()*256);
 		const blue=Math.floor(Math.random()*256);
-		e.target.style.backgroundcolor=`rgb(${red},${green},${blue})`;
-		e.target.style.boxshadow= "1px 1px 1px black";
+		e.target.style.backgroundColor=`rgb(${red},${green},${blue})`;
+		e.target.style.boxShadow= "1px 1px 1px black";
 		});
 	div.addEventListener("mouseout",(e)=>{
-		setTimeOut(()=>{
-			e.target.style,backgroundcolor= "gray";
-			e.target.style.boxshadow= "none";
+		setTimeout(()=>{
+			e.target.style,backgroundColor= "gray";
+			e.target.style.boxShadow= "none";
 		},500)
-		fargment.appendChild(div)
 	})
+		fragment.appendChild(div)
+	
 	container.appendChild(fargment)
 }
